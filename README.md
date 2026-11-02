@@ -19,7 +19,9 @@ Este material acompanha a publicação no LinkedIn de 24/10/2026: [Excel por den
 | [`planilha/excel-formulas-na-pratica.xlsx`](planilha/excel-formulas-na-pratica.xlsx) | Planilha de exemplos com 8 abas e as fórmulas já montadas |
 | [`docs/formulas.md`](docs/formulas.md) | Lista de todas as fórmulas da planilha, com a célula e o resultado |
 | [`docs/como-estudar.md`](docs/como-estudar.md) | Roteiro de estudo e o que cada aula ensina |
-| [Releases](../../releases) | Mini-curso em PDF (23 páginas) e carrossel em PDF (26 slides) |
+| [`docs/dias-uteis-e-feriados.md`](docs/dias-uteis-e-feriados.md) | Aula extra: feriado no meio do prazo, no Excel e em JavaScript |
+| [`planilha/dias-uteis-e-feriados.xlsx`](planilha/dias-uteis-e-feriados.xlsx) | Planilha da aula extra: `DIATRABALHO` e `DIATRABALHOTOTAL` com lista de feriados |
+| [Releases](../../releases) | Mini-curso em PDF (23 páginas) e carrossel em PDF (26 slides) na v1.0. Carrossel da aula extra (9 slides) na v1.1 |
 
 ## As aulas
 
@@ -33,6 +35,8 @@ Este material acompanha a publicação no LinkedIn de 24/10/2026: [Excel por den
 | Aula 6 - Contar e somar | `CONT.SES`, `SOMASE`, `SOMASES`, `MÉDIASE` e conferência final |
 | Aula 7 - Desconto | `TEXTO` com data e moeda, `&`, `CONT.VALORES` |
 | Aula 8 - Máscara LGPD | `EXT.TEXTO`, `ESQUERDA`, `LOCALIZAR` para mascarar CPF e e-mail |
+
+**Aula extra (02/11/2026): [feriado no meio do prazo](docs/dias-uteis-e-feriados.md).** Mostra por que um prazo de 5 dias úteis pedido em 30/10/2026 termina em 06/11 e não em 05/11, com `DIATRABALHO`, `DIATRABALHOTOTAL`, `DIATRABALHO.INTL` e uma versão em JavaScript.
 
 O mini-curso traz ainda tabela dinâmica, Power Query, como proteger a planilha antes de enviar e quando vale sair do Excel e partir para código.
 
@@ -54,7 +58,7 @@ O mini-curso traz ainda tabela dinâmica, Power Query, como proteger a planilha 
 
 ## Requisitos e o que foi testado
 
-- Testado no **Microsoft 365 (Excel em português do Brasil)**, no Windows 10. Em 26/10/2026 as 61 fórmulas foram recalculadas e todas deram o resultado esperado.
+- Testado no **Microsoft 365 (Excel em português do Brasil)**, no Windows 10. Em 26/10/2026 as 61 fórmulas foram recalculadas e todas deram o resultado esperado. As 6 fórmulas da aula extra foram testadas em 02/11/2026.
 - `PROCX` e `FILTRO` exigem Excel 2021 ou Microsoft 365, e `SES` exige Excel 2019 ou mais novo. O mini-curso mostra alternativas para versões antigas.
 - **Não testado:** LibreOffice, Google Planilhas e Excel em outros idiomas. Em inglês, os nomes das funções e o separador (`,` no lugar de `;`) mudam.
 
